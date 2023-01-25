@@ -1,4 +1,7 @@
 
+module "aws-provider" {
+  source = "../provider"
+}
 data "aws_region" "current" {}
 
 // VPC Creation
